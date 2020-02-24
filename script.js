@@ -256,7 +256,7 @@ var map = new mapboxgl.Map({
   
       console.log(obj.id);
       map.setPaintProperty(obj.id,'fill-color', '#0000FF')
-      map.setPaintProperty(obj.id,'fill-opacity', parseInt(obj.total *3)/100);
+      map.setPaintProperty(obj.id,'fill-opacity', parseInt(obj.total *5)/100);
     }
   });
 
