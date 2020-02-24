@@ -255,7 +255,7 @@ var map = new mapboxgl.Map({
       var obj = json[i];
   
       console.log(obj.id);
-      map.setPaintProperty(obj.id,'fill-color', '#0000FF')
+      map.setPaintProperty(obj.id,'fill-color', '#FF0000')
       map.setPaintProperty(obj.id,'fill-opacity', parseInt(obj.total *5)/100);
     }
   });
